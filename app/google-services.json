@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "797253170022",
+    "firebase_url": "https://muscle-memory-7bf0e.firebaseio.com",
+    "project_id": "muscle-memory-7bf0e",
+    "storage_bucket": "muscle-memory-7bf0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797253170022:android:40536256991f8b835b8ea7",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797253170022-c7e8asmg4a0r3j6trmbf8jfsdre2rls6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1FYDyyPvcl-mw0srDYwkt12V5hlwFnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797253170022-c7e8asmg4a0r3j6trmbf8jfsdre2rls6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
