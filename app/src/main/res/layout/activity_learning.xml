@@ -23,6 +23,9 @@
         android:layout_width="297dp"
         android:layout_height="127dp"
         android:text="This is where I will put information about dimentia, resources, etc... "
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="100dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

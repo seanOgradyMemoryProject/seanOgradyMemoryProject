@@ -73,7 +73,7 @@ public class Home extends AppCompatActivity {
                 openGoalsPage();
             }
         });
-
+        //Open games Page
         buttonTips =findViewById(R.id.button21);
         buttonTips.setOnClickListener(new View.OnClickListener() {
             @Override

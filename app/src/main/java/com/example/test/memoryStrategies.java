@@ -14,7 +14,7 @@ public class memoryStrategies extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memory_strategies);
 
-        buttonStrategies2 =findViewById(R.id.button12);
+        buttonStrategies2 =findViewById(R.id.button14);
         buttonStrategies2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

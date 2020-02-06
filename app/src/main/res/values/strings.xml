@@ -8,4 +8,22 @@
     <string name="muscle_memory">Muscle Memory</string>
 
     <string name="go_back">Go Back</string>
+
+
+    <string name="tip1">Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</string>
+    <string name="tip2">Be sure to get at least 7 hours sleep! Sleep helps in recalling facts and information as well as in procedural memory formation - the aspect of memory involved in learning new skills faster.</string>
+    <string name="tip3">Have a card in your work area with a simple message on it like "Focus on what to do!" This can help you to avoid drifting off </string>
+    <string name="tip4">If you feel that you are being overloaded - especially in a conversation with someone, ask the person to slow down with the information or repeat what they have said.</string>
+    <string name="tip5">Work at your best time - work at the time of day when you are most alert and focused (For most people, this is the morning!)</string>
+
+    <string-array name="tipsy">
+        <item>Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</item>
+        <item>Be sure to get at least 7 hours sleep! Sleep helps in recalling facts and information as well as in procedural memory formation - the aspect of memory involved in learning new skills faster.</item>
+        <item>Have a card in your work area with a simple message on it like "Focus on what to do!" This can help you to avoid drifting off</item>
+        <item>If you feel that you are being overloaded - especially in a conversation with someone, ask the person to slow down with the information or repeat what they have said.</item>
+        <item>Work at your best time - work at the time of day when you are most alert and focused (For most people, this is the morning!)</item>
+
+    </string-array>
+
+
 </resources>
