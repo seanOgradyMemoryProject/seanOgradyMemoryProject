@@ -29,5 +29,4 @@ public class memoryStrategies2 extends AppCompatActivity {
         startActivity(intent);
     }
 
-
 }
