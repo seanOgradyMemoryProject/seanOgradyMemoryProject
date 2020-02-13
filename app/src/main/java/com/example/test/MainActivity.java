@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     private Button button2;
     EditText emailID, password;
     Button btnSignIn;
-    TextView tvSignIn;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -34,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
-        emailID = findViewById(R.id.editText7);
-        password = findViewById(R.id.editText9);
+        emailID = findViewById(R.id.editText2);
+        password = findViewById(R.id.editText3);
         btnSignIn = findViewById(R.id.button);
 
         /* 'More information' button */
@@ -57,9 +56,10 @@ public class MainActivity extends AppCompatActivity {
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
 
-            FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
+
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
                 if(mFirebaseUser != null){
                     Toast.makeText(MainActivity.this, "You are logged in", Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(MainActivity.this, introPage.class);
@@ -87,14 +87,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Fields are empty", LENGTH_SHORT).show();
                 }
                 else if(!(email.isEmpty() && pwd.isEmpty())){
-                        mFirebaseAuth.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+
+                       mFirebaseAuth.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> Task){
                         if(!Task.isSuccessful()){
                             Toast.makeText(MainActivity.this, "Login error occurred!", LENGTH_SHORT).show();
                         }
                         else{
-                            Intent inToHome = new Intent(MainActivity.this, introPage.class);
+                            Intent inToHome = new Intent(MainActivity.this, Tips.class);
                             startActivity(inToHome);
                         }
                     }
@@ -104,9 +105,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "error occurred!", LENGTH_SHORT).show();
             }
         }
-
-
-
 
         });
     }

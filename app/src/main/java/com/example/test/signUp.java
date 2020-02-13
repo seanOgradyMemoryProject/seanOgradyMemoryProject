@@ -23,7 +23,6 @@ import static android.widget.Toast.LENGTH_SHORT;
 public class signUp extends AppCompatActivity {
     EditText emailID, password;
     Button btnSignUp;
-    TextView tvSignIn;
     FirebaseAuth mFirebaseAuth;
     private Button backToHome;
 

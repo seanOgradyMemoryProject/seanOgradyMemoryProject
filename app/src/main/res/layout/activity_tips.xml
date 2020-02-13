@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradientbackground"
+    android:background="@drawable/gradientbackground2"
     tools:context=".Tips">
 
     <Button
@@ -26,6 +26,7 @@
         android:text="TextView"
         android:textSize="36sp"
         android:textStyle="bold"
+        android:textColor="#e2d1c3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.589"
