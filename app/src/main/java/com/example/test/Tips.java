@@ -10,6 +10,7 @@ import java.util.Random;
 
 public class Tips extends AppCompatActivity {
     private Button Home;
+    private Button showAll;
     TextView TextView;
 
     @Override
@@ -31,10 +32,23 @@ public class Tips extends AppCompatActivity {
         String randomTip = tipsy[randomIndex];
         TextView.setText(randomTip);
 
+        showAll = findViewById(R.id.button27);
+        showAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openshowAllPage();
+            }
+        });
+
     }
 
     public void openHomePage(){
         Intent intent = new Intent(Tips.this, Home.class);
+        startActivity(intent);
+    }
+
+    public void openshowAllPage(){
+        Intent intent = new Intent(Tips.this, showAllActivity.class);
         startActivity(intent);
     }
 

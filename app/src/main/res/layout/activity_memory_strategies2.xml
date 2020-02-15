@@ -7,6 +7,26 @@
     android:background="@drawable/gradientbackground"
     tools:context=".memoryStrategies2">
 
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="407dp"
+        android:layout_height="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </ScrollView>
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="323dp"
@@ -22,11 +42,11 @@
         android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="436dp"
-        android:text="Next"
+        android:layout_marginTop="16dp"
+        android:text="Types of attention"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

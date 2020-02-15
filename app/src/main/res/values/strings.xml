@@ -40,10 +40,10 @@
         <item>Have a special place to keep your wallet and glasses.</item>
         <item>Have a filing system for bills and legal documents, and a tray for bills and letters!</item>
         <item>Place items strategically e.g put letters that you plan to post by the front door.</item>
-        <item>Set up electronic reminders! For instance, you can create email or text alerts to signal it's time to take your medicine.</item>
+        <item>Set up electronic reminders! For instance, you can create email or text alerts to signal it is time to take your medicine.</item>
         <item>Make a link of taking whatever medication you may take with an activity you do every day, such as making coffee or brushing your teeth. This works much better than taking medication in the midst of other activities.</item>
         <item>Setting a daily alarm can be helpful, especially if you struggle with timing requirements.</item>
-        <item>Make a point of noticing when you take your medication. For instance, before taking your pill, pause, look at it in your hand, and tell yourself that you're taking the pill now. You will have a specific memory trace to todays dose.</item>
+        <item>Make a point of noticing when you take your medication. For instance, before taking your pill, pause, look at it in your hand, and tell yourself that you are taking the pill now. You will have a specific memory trace to todays dose.</item>
         <item>If you are just starting your medication, leave it out in an easy to spot space.</item>
         <item>When attending an appointment place your bag in front of you rather thank behind you to prevent forgetting it.</item>
         <item>Make lists! such as shopping lists, or lists to help organize the day.</item>
@@ -56,6 +56,50 @@
         <item>Put effort into maintaining friendships and developing new friendships.</item>
 
 
+    </string-array>
+
+
+    <string-array name="attention1">
+        <item>Attention is the basis of all new learning and memory.</item>
+        <item>Attention generally explains our ability to focus and hold attention on words on a page, a conversation, music, or traffic on the road when we are driving.</item>
+        <item>People with attention problems often complain that they can no longer concentrate on reading books, do tasks and maintain a conversation at the same time, or they may have difficulty studying for any length of time.</item>
+        <item>Attention helps us to select specific information and decide what information is important and what is not.</item>
+
+    </string-array>
+
+    <string-array name="attention2">
+        <item>There are different types of attention: </item>
+        <item>Focused attention - Our ability to respond immediately to a stimulus - e.g. turning your head when someone calls your name, fixing your gaze on something interesting (e.g. a street performer among a busy crowd).</item>
+        <item>Sustained attention - Our capacity to maintain our focus on specific stimuli - e.g. listening carefully to a telephone message or to a lecture.</item>
+        <item>Selective attention - Our ability to filter out distractions and select important information - e.g. listening out for our flight details in the airport, whilst filtering out all the other announcements and distractions in the busy airport.</item>
+        <item>Divided Attention - The ability to pay attention to two or more things at the same time e.g. watching the news on TV, whilst knitting and keeping and eye on the children playing on the floor. Or speaking on the phone, whilst typing and listening to music in the background.</item>
+    </string-array>
+
+    <string-array name="attention3">
+        <item>There are many ways of improving attention and concentration:</item>
+        <item>Minimise Distractions - Try to work in a quiet environment with no background distractions, such as noisy televisions or people talking. Let people know they should try to not interrupt you when you are working.</item>
+        <item>Take Frequent Breaks - If the problem is made worse by fatigue, work for shorter periods of time and take breaks. Periods for up to 30 minutes tend to be more productive.</item>
+        <item>Talk to yourself and say things out loud - Say things like \"What should I be doing now?\" or \"Stay focused!\" can help yourself to stay on the right track.</item>
+        <item>Use Cue Cards - Have a card in your work area with a simple message on it \"FOCUS ON WHAT TO DO!\" This can help you to avoid drifting off. Or a little alarm on your phone or watch can be set to go off and remind you to stay focused.</item>
+        <item>Set Yourself targets or goals - It is easier to stay motivated if you have a goal or target to work towards - if the goal is too easy set yourself harder ones.</item>
+        <item>Use incentives - Reward yourself! If you manage to achieve your goals - treat yourself to a reward.</item>
+        <item>Be assertive and Gain Control - If you feel that you are being overloaded - especially in a conversation with someone, ask the person to slow down with the information or repeat what they have said e.g \"Excuse me, I think you have lost me, could you repeat that?\"</item>
+        <item>Work at your best time - work at the time of day when you are most alert and focused (For most people, this is the morning!)</item>
+        <item>Do one thing at a time - Concentrate on one thing at a time - taking in or trying to do too many things at once leads to mistakes. Do one thing well, then move on to the next thing.</item>
+        <item>Do not rush things - Take your time and pace yourself - rushing leads to mistakes.</item>
+        <item>Apply Structure and Routine - Make a plan or break things down into manageable parts. If you do get distracted, you can easily pick up from where you left off if you have organisation and structure.</item>
+        <item>Check and Double check your work - Do this with everything you do. It will be slow and hard at first, but it will become a habit as you get accustomed to it. This is the only sure fire way of picking up on your own errors.</item>
+        <item>Listen really attentively to the headlines on the news (on the radio and TV) and see how much of the details you can really absorb accurately and then relay back to others. Test yourself every day.</item>
+    </string-array>
+
+    <string-array name="attention4">
+        <item>Learning to use a notebook or memory book:</item>
+        <item>Portable with a pen - A small portable book is best for people who are mobile and on the go!</item>
+        <item>Personalised book - when you buy a book, take out any sections that are not relevant to you.</item>
+        <item>Emphasise the importance - if you cannot see the importance in using it, you probably will not use it. Identify three reasons why the book is important and write it on the inside page to remind you why it is going to be helpful to you.</item>
+        <item>Train yourself to use the book - Initially this may just mean learning to carry it around wherever you go, as if it is part of your brain. Once this habit is established, practice finding each section in the book until you can do it easily and quickly.</item>
+        <item>Look at it regularly! This is the most important thing, you need to look at it regularly.</item>
+        <item>A typical memory book will contain the following sections: A daily schedule to keep track of the things that you should be doing, A reference section for telephone numbers and addresses, and a notes section to write notes and to-do lists.</item>
     </string-array>
 
 

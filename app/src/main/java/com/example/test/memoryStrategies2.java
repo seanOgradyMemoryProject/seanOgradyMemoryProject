@@ -5,9 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class memoryStrategies2 extends AppCompatActivity {
     private Button buttonStrategies3;
+    TextView TextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,15 @@ public class memoryStrategies2 extends AppCompatActivity {
                 openStrategies3Page();
             }
         });
+
+        TextView = (TextView) findViewById(R.id.textView7);
+        String attention11[] = getBaseContext().getResources().getStringArray(R.array.attention1);
+        int arraySize = attention11.length;
+        for(int i = 0; i < arraySize; i++) {
+            TextView.append(attention11[i]);
+            TextView.append("\n\n");
+            //potential faade
+        }
 
     }
 
