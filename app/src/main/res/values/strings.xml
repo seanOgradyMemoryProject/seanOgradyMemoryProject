@@ -102,5 +102,70 @@
         <item>A typical memory book will contain the following sections: A daily schedule to keep track of the things that you should be doing, A reference section for telephone numbers and addresses, and a notes section to write notes and to-do lists.</item>
     </string-array>
 
+    <string-array name="shortTerm1">
+        <item>Short-term memory is the capacity to take in and hold information for a very short period of time from a few seconds to a couple of minutes.</item>
+        <item>It is a very temporary store. The information is either lost, or stored in the long term memory.</item>
+        <item>This type of memory is used to look up a phone number in the telephone dictionary. You might repeat the number a few times until you dial the number. Once you have used the number it is either forgotten - or you might learn it and use it in the future.</item>
+        <item>We have the choice to store information for longer in our long term memory stores - or if not important, we can let it fade away.</item>
+        <item>As short term memory is a temporary store - the person often has to be able to remember the information \"There and then\".</item>
+    </string-array>
+
+    <string-array name="shortTerm2">
+        <item>When taking a telephone message:</item>
+        <item>1. Listen Carefully to the person giving the message.</item>
+        <item>2. Repeat or confirm the message with the person on the other end of the phone.</item>
+        <item>3. Pass the message on or write it down as soon as possible.</item>
+        <item> --- </item>
+        <item>When asking for directions:</item>
+        <item>1. Listen carefully to the person giving the directions - also watching carefully if they are pointing in order to recall the directions.</item>
+        <item>2. Repeat or confirm the directions with the person to help encode the information.</item>
+        <item>3. We tend to use this information immediately. Depending on how important it is to us, we either forget it as soon as we have found our destination - or store it in our long term memory.</item>
+    </string-array>
+
+    <string-array name="shortTerm3">
+        <item>These are the things you do \"inside your head\" to try to remember things.</item>
+        <item>ATTENTION - Pay attention, focus on what is being said, and try to reduce background distractions.</item>
+        <item>SMALL CHUNKS - Break down information into small, relevant, simple chunks. Put no more than 5 to 6 bits of information in each category.</item>
+        <item>REPEAT AND REHEARSE - Repeat information over and over, silently in your mind .. a useful way to remember a name or telephone number.</item>
+        <item>AIM FOR \"DEEP LEVEL PROCESSING\" - Try to attach new information to existing memories - it helps to process the new information more deeply.</item>
+        <item>MAKE LINKS OR ASSOCIATIONS - e.g. if you want to remember that Mary\'s birthday is the 27th December - imagine that 2 days after Christmas - poor Mary probably got lots of joint presents as a child! Sometimes the more bizarre the association, the better we remember it.</item>
+        <item>MAKE VISUAL PICTURES - \"A picture is worth a thousand words\". We remember pictures and images much more than words. If you have to remember a name - think of names in terms of a picture to help to remember it.</item>
+        <item>ASK YOURSELF QUESTIONS - THE FIVE W\'s : \"Who?\" \"What?\" \"Where?\" \"Why?\" and \"When?\". This is helpful in trying to remember a newspaper article or story.</item>
+        <item>STORIES OR RHYMES - Make up a story or rhyme that contains information that you want to remember. E.g. F(Face) A(Arm) S(Speech) T(Time) - Stroke FAST Campaign.</item>
+        <item>ERRORLESS LEARNING - Get it right the first time!</item>
+        <item>EXPANDED REHEARSAL - Repeat the information in your mind immediately after you have taken it in - test yourself after a slight delay - increase the delay by a few hours - test yourself after a few days.</item>
+        <item>RETRACE BY USING RETRIEVAL CUES - Retrace a sequence of events and actions in your mind in order to remember something - mentally retrace your steps. This is a good method if you are trying to remember where you have put something.</item>
+    </string-array>
+
+    <string-array name="longTerm1">
+        <item>Long term memory is the brain\'s way of storing information so it can be used later. It includes big pieces of information, like:</item>
+        <item>Things you learned as a child (How to play the piano, build a sand castle, make a cake, how to change a tyre)</item>
+        <item>Events that happened in your life (Your first day at school or college and everyday events like recalling what you ate for breakfast yesterday morning)</item>
+        <item>There are no known limits on the amount of information that can be stored in long term memory</item>
+        <item> </item>
+        <item>What types of information are kept in long term memory?</item>
+        <item>Episodic information which is the stories or episodes of our lives.</item>
+        <item>Factual information and general knowledge: e.g the grass is green and Dublin is the capital of Ireland.</item>
+        <item>Procedural information: This involves remembering how to do things without having to think about how to do it. For example getting dressed, driving a car or typing.</item>
+    </string-array>
+
+    <string-array name="longTerm2">
+        <item>Here are some tips for remembering to take any medications or tablets you may need to take!</item>
+        <item>1. Use a pillbox - The best and easiest strategy is to put your medication in a weekly pillbox that has a compartment for each day. It doesn\'t just visually remind you to take your medication but also prevents double doses. Fill your pillbox with any medications, supplements or vitamins your doctor has prescribed. The pharmacist can plan out your medications in a \"Blister Pack\" in this way.</item>
+        <item>2. Take advantage of technology - Set up electronic reminders. For instance, you can create email or text alerts to signal it\'s time to take your medicine.</item>
+        <item>3. Combine with a daily task - Make a link of taking your medication with an activity you do every day, such as making coffee or brushing your teeth. This works much better than taking the medication at a free floating time or in the midst of other variable activities.</item>
+        <item>4. Set an Alarm - Setting a daily alarm can be helpful, especially if the timing requirements for when you are supposed to take it tend to be tighter.</item>
+        <item>5. Break out of autopilot - Make a point of noticing when you take your medication. For instance, before taking your pill, pause, look at it in your hand, and tell yourself: \"I\'m taking Tuesday\'s pill now\". This makes it more likely that you will have a specific memory traced for today\'s dose.</item>
+        <item>6. Keep it visible - \"Out of sight, out of mind!\" So if you\'re just starting your medication, leave it out in an easy to spot place.</item>
+        <item>7. Enlist a loved one\'s help - It can help to have a non judgemental, positive person who understands your situation to support you through your treatment. This person can help you remember to take your medicine.</item>
+    </string-array>
+
+    <string-array name="longTerm3">
+        <item>Here are some strategies to help improve your long term wellbeing..</item>
+        <item>Get into a routine! Routines and good habits can ease memory difficulties. Pay bills on time if possible and set up standing orders for bills. Carry out certain activities on certain days and keep a daily timetable on the notice board - and USE IT!</item>
+        <item>Improve your wellbeing - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
+        <item>Seek out relaxing pleasurable activities - learn to relax and look after yourself. stay physically active and fit - exercise at least once a day.</item>
+    </string-array>
+
 
 </resources>

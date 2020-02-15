@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".memoryStrategies5"></activity>
+        <activity android:name=".ltmemoryStrategies3"></activity>
+        <activity android:name=".ltmemoryStrategies2" />
+        <activity android:name=".ltmemoryStrategies1" />
+        <activity android:name=".stmemoryStrategies3" />
+        <activity android:name=".stmemoryStrategies2" />
+        <activity android:name=".stmemoryStrategies1" />
+        <activity android:name=".memoryStrategies5" />
         <activity android:name=".memoryStrategies4" />
         <activity android:name=".showAllActivity" />
         <activity android:name=".QuizHome" />
