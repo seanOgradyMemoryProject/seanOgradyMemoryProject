@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ltmemoryStrategies3"></activity>
+        <activity android:name=".externalMemory2"></activity>
+        <activity android:name=".externalMemory1" />
+        <activity android:name=".prospectiveMemory3" />
+        <activity android:name=".prospectiveMemory2" />
+        <activity android:name=".prospectiveMemory1" />
+        <activity android:name=".ltmemoryStrategies3" />
         <activity android:name=".ltmemoryStrategies2" />
         <activity android:name=".ltmemoryStrategies1" />
         <activity android:name=".stmemoryStrategies3" />

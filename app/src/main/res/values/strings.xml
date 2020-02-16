@@ -167,5 +167,55 @@
         <item>Seek out relaxing pleasurable activities - learn to relax and look after yourself. stay physically active and fit - exercise at least once a day.</item>
     </string-array>
 
+    <string-array name="prospective1">
+        <item>Prospective memory is the ability to remember things for the future. It is strongly linked to long term memory and the ability to plan and organise. Prospective memory refers to remembering to perform intended actions in the future, or simply, \"remembering to remember\"</item>
+        <item>Examples of Prospective Memory include remembering to take medicine at night before going to bed, remembering to deliver a message to a friend, and remembering to pick up flowers for a significant other on an anniversary. It may be either event based or time based and is often triggered by a cue.</item>
+        <item>Event based Prospective Memory involves remembering to do a certain action when the specific circumstances are present. For example, driving past the local library cues you to remember that you need to return an overdue book.</item>
+        <item>Time based Prospective Memory involves remembering to do an action at a particular point in time. For example, seeing that it is 10 pm acts as a cue for you to know that it is time to watch your favourite television show.</item>
+        <item>Prospective memory is useful for remembering appointments, planning and organising our time, remembering to take medications and remembering important events e.g. birthdays.</item>
+    </string-array>
+
+    <string-array name="prospective2">
+        <item>Use a calendar - with a friend or family member write your appointment onto the calendar and make checking the calendar part of your daily routine. Friends and family members may have to prompt you to make this part of your daily routine.</item>
+        <item>Use an alarm system - If your medications need to be taken at the same time daily, set an alarm for this time. ALSO, if you don\'t have an alarm that tells you what you are supposed to remember, have a pnote beside the alarm telling you why the alarm is going off.</item>
+        <item>Use post it\'s or a memo board - just make sure that it does not get too cluttered! Do it as soon as you think of it or write it down and leave it somewhere where you will spot it again within a reasonable time frame.</item>
+        <item>Keep a notebook and pen either on you or in your bag, beside the phone, at the front door and don\'t forget to check it regularly!</item>
+        <item>Positioning - place letters for posting by the door as a visual reminder to post them when you\'re going into town. When attending an appointment place your items in front of you rather than behind you to prevent forgetting it.</item>
+    </string-array>
+
+    <string-array name="prospective3">
+        <item>Telephone answering machines - Reduces the problem of phone messages being forgotten or lost.</item>
+        <item>Make Lists - Shopping lists, or lists to help organise the day.</item>
+        <item>Use a pill reminder for medication - Get into the routine of filling the pill planner before you go to bed each night - or on a Sunday night for use throughout the week. Keep the pill planner in a very obvious place. The pharmacist can organise all the pills in a blister pack for the week.</item>
+        <item>Keep a kitchen timer by the cooker: Alarms are useful reminders to start or stop a certain activity.</item>
+        <item>List telephone numbers - Keep a list of important telephone numbers by the phone - or put numbers on \"Speed Dial\" on your phone and mobile phone. The name and number can also have a small photograph of the person you mean to ring.</item>
+        <item>Computers - They can be very good for storing information if you have an interest in using computers.</item>
+        <item>Reminder notes - \"Turn off the cooker\", \"Remeber keys\", \"Lock the front door\". Laminated signs over the cooker, at the front door etc.</item>
+        <item>Write on the back of your hand - Just a letter of the alphabet can often be enough to trigger you to remember something important you mean to do.</item>
+    </string-array>
+
+    <string-array name="inext1">
+        <item>Here are some External Memory Strategies - These are things like taking notes, keeping a diary, using a calendar or just getting into a regular routine.</item>
+        <item>Adapt your environment - Keep a notepad and pen by the phone, put up a notice board or white board and label cupboards.</item>
+        <item>A place for everything and everything in its place - Have a jey ring by the door where you always hang your keys, a special place to keep your wallet and glasses, have an \"In Tray\" for bills and letters, have a filing system for bills, and place items strategically e.g put letters that you plan to post by the front door.</item>
+        <item>Getting into a routine - Routines and good habits can ease memory difficulties. Pay bills on time if possible and set up direct debits for bills. Carry out certain activities on certain days and keep a daily timetable on a notice board.</item>
+        <item>Improve your wellbeing - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
+        <item>Seek out relaxing pleasurable activities - learn to relax and look after yourself. stay physically active and fit - exercise at least once a day.</item>
+        <item>Learn to say \"No\" to excessive demands and manage your time efficiently - Take breaks.</item>
+    </string-array>
+
+    <string-array name="inext2">
+        <item>Portable Diary or Filofax notebook - Keep a larger diary at home to record the events of the day.</item>
+        <item>Use \"Post-it\" stickers - put a sticker on each day of your diary with a \"to do\" list on it.</item>
+        <item>White board - use it for reminders of events and messages and to help to plan.</item>
+        <item>Calendar - It is useful for writing down appointments and social occasions.</item>
+        <item>Watch - Use a battery operated watch that can bleep to give you a hourly prompt to check your daily planner.</item>
+        <item>Dictaphone - Record verbal messages.</item>
+        <item>Use a pill reminder for medication - Get into the routine of filling the pill planner before you go to bed each night - or on a Sunday night for use throughout the week. Keep the pill planner in a very obvious place. The pharmacist can organise all the pills in a blister pack for the week.</item>
+        <item>Keep a kitchen timer by the cooker: Alarms are useful reminders to start or stop a certain activity.</item>
+        <item>Computers - They can be very good for storing information if you have an interest in using computers.</item>
+        <item>Reminder notes - \"Turn off the cooker\", \"Remeber keys\", \"Lock the front door\". Laminated signs over the cooker, at the front door etc.</item>
+        <item>Write on the back of your hand - Just a letter of the alphabet can often be enough to trigger you to remember something important you mean to do.</item>
+    </string-array>
 
 </resources>

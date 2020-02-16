@@ -10,6 +10,10 @@ public class memoryStrategies extends AppCompatActivity {
     private Button buttonStrategies2;
     private Button stStrategies1;
     private Button ltStrategies1;
+    private Button internal;
+    private Button home;
+    private Button prospective;
+    private Button external;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +44,37 @@ public class memoryStrategies extends AppCompatActivity {
             }
         });
 
+        internal =findViewById(R.id.button42);
+        internal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openInternalPage();
+            }
+        });
 
+        home =findViewById(R.id.button44);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openHomePage();
+            }
+        });
 
+        prospective =findViewById(R.id.button41);
+        prospective.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openProspectivePage();
+            }
+        });
 
+        external =findViewById(R.id.button43);
+        external.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openExternalPage();
+            }
+        });
 
 
     }
@@ -62,6 +94,24 @@ public class memoryStrategies extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openInternalPage(){
+        Intent intent = new Intent(memoryStrategies.this, stmemoryStrategies3.class);
+        startActivity(intent);
+    }
 
+    public void openHomePage(){
+        Intent intent = new Intent(memoryStrategies.this, Home.class);
+        startActivity(intent);
+    }
+
+    public void openProspectivePage(){
+        Intent intent = new Intent(memoryStrategies.this, prospectiveMemory1.class);
+        startActivity(intent);
+    }
+
+    public void openExternalPage(){
+        Intent intent = new Intent(memoryStrategies.this, externalMemory1.class);
+        startActivity(intent);
+    }
 
 }
