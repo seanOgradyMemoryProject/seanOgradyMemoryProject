@@ -7,37 +7,50 @@
     android:background="@drawable/gradientbackground"
     tools:context=".LearningActivity">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="323dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="8dp"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="407dp"
+        android:layout_height="400dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="24dp"
         android:text="Home "
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/button50" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="297dp"
-        android:layout_height="127dp"
-        android:layout_marginTop="16dp"
-        android:text="This is where I will put information about dimentia, resources, etc... "
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Weeky reading!"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

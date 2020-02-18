@@ -9,6 +9,9 @@
 
     <string name="go_back">Go Back</string>
 
+    <string name="moreInfo">This application was made as part of a Computer Science and Software Engineering final year project. It should not be used to diagnose any memory problems. If you are worried about any memory related issues, please contact your GP. The information used in this application is verified by evidence based research.</string>
+
+    <string name="learnMore">If you feel you are struggling with memory related issues, you should contact your GP at the earliest convenience. There are many resources online available that you can make use of, such as https://alzheimer.ie/get-support/resources-and-factsheets/ https://www.understandtogether.ie/  and https://www.alz.org/help-support/caregiving</string>
 
     <string name="tip1">Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</string>
     <string name="tip2">Be sure to get at least 7 hours sleep! Sleep helps in recalling facts and information as well as in procedural memory formation - the aspect of memory involved in learning new skills faster.</string>
