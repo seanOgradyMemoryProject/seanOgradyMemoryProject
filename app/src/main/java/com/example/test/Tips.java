@@ -26,7 +26,7 @@ public class Tips extends AppCompatActivity {
             }
         });
 
-        TextView = (TextView) findViewById(R.id.textView13);
+        TextView = findViewById(R.id.textView13);
         String tipsy[] = getBaseContext().getResources().getStringArray(R.array.tipsy);
         int randomIndex = new Random().nextInt(tipsy.length);
         String randomTip = tipsy[randomIndex];
