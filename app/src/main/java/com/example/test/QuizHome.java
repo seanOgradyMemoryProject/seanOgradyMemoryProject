@@ -21,6 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -32,9 +33,11 @@ public class QuizHome extends AppCompatActivity {
     private DatabaseReference mDatabaseRef;
     private TextView quizPrompt;
     private TextView firstPrompt;
+    private TextView levelCounter;
     private Button quizNext;
     private Spinner spinner;
-    private int totalWords = 3;
+    private int totalWords;
+    private int chosenWords;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,22 +49,44 @@ public class QuizHome extends AppCompatActivity {
         wordsToRemember = findViewById(R.id.wordsToRemember);
         firstPrompt = findViewById(R.id.textView12);
         spinner = findViewById(R.id.quizSpinner);
+        levelCounter = findViewById(R.id.levelCounter);
 
-        final int correctAnswer = new Random().nextInt(totalWords) + 1;
-        String quizPromptText = "Please select word number " + correctAnswer;
-        quizPrompt.setText(quizPromptText);
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            chosenWords = extras.getInt("ChosenWords");
+        }
+        else{
+            chosenWords = 3;
+        }
+        levelCounter.setText("Level " + (chosenWords-2));
 
         mDatabaseRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 List<String> wordsList = new ArrayList<>();
+                List<String> chosenWordsList = new ArrayList<>();
+
 
                 for (DataSnapshot snap : dataSnapshot.getChildren()){
                     wordsList.add(snap.getValue().toString());
                 }
 
+                totalWords = wordsList.size();
+                Collections.shuffle(wordsList);
 
-                String words = wordsList.toString()
+
+                for(int i = 0; i<chosenWords; i++){
+                    chosenWordsList.add(wordsList.get(i));
+                }
+
+                int correctAnswer = new Random().nextInt(chosenWords) + 1;
+
+                String quizPromptText = "Please select word number " + correctAnswer;
+                quizPrompt.setText(quizPromptText);
+
+                final String correctWord = chosenWordsList.get(correctAnswer-1);
+
+                String words = chosenWordsList.toString()
                         .replace("[","")
                         .replace("]","")
                         .replace(",","")
@@ -69,11 +94,13 @@ public class QuizHome extends AppCompatActivity {
 
                 wordsToRemember.setText( words );
 
-                wordsList.add(0, "Select Answer");
+                final List<String> wordsListShuffled = chosenWordsList;
+                Collections.shuffle(wordsListShuffled);
 
+                wordsListShuffled.add(0, "Select Answer");
 
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(QuizHome.this,
-                        android.R.layout.simple_spinner_item,wordsList);
+                        android.R.layout.simple_spinner_item,wordsListShuffled);
 
                 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 spinner.setAdapter(adapter);
@@ -81,8 +108,9 @@ public class QuizHome extends AppCompatActivity {
                     @Override
                     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-                        if(position == correctAnswer){
-                            Toast.makeText(getApplicationContext(), "" + id, Toast.LENGTH_SHORT).show();
+                        if(wordsListShuffled.get(position) == correctWord){
+                            Toast.makeText(getApplicationContext(), "Correct!", Toast.LENGTH_SHORT).show();
+                            nextLevel();
                         }
                         else if(position !=0){
                             Toast.makeText(getApplicationContext(), "Incorrect", Toast.LENGTH_SHORT).show();
@@ -112,8 +140,21 @@ public class QuizHome extends AppCompatActivity {
                 wordsToRemember.setVisibility(View.INVISIBLE);
                 firstPrompt.setVisibility(View.INVISIBLE);
                 spinner.setVisibility(View.VISIBLE);
+                levelCounter.setVisibility(View.INVISIBLE);
             }
         });
 
     }
+
+    public void nextLevel(){
+
+        if(chosenWords < totalWords){
+            chosenWords++;
+        }
+
+        Intent intent = new Intent(QuizHome.this, QuizHome.class);
+        intent.putExtra("ChosenWords", chosenWords);
+        startActivity(intent);
+    }
+
 }

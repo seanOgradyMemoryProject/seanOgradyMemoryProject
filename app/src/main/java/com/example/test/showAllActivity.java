@@ -25,18 +25,15 @@ public class showAllActivity extends AppCompatActivity {
             }
         });
 
-        TextView = (TextView) findViewById(R.id.textView2);
+        TextView = findViewById(R.id.textView2);
         String tipsy[] = getBaseContext().getResources().getStringArray(R.array.tipsy);
         int arraySize = tipsy.length;
         for(int i = 0; i < arraySize; i++) {
-            TextView.append(tipsy[i]);
+            TextView.append(i + ". " + tipsy[i]);
             TextView.append("\n\n");
-            //potential faade
         }
 
-
     }
-
 
     public void openHomePage(){
         Intent intent = new Intent(showAllActivity.this, Home.class);
