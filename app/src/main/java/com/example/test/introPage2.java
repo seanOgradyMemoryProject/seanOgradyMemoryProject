@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
+import android.widget.TextView;
 
 public class introPage2 extends AppCompatActivity {
 
     private Button button;
+    TextView TextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,10 @@ public class introPage2 extends AppCompatActivity {
                 openHomePage();
             }
         });
+
+        TextView = findViewById(R.id.textView3);
+        TextView.append(getBaseContext().getResources().getString(R.string.welcome2));
+
     }
 
     //Go to home page

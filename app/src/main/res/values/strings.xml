@@ -1,23 +1,13 @@
 <resources>
-    <string name="app_name">test</string>
+    <string name="app_name">Muscle Memory</string>
     <string name="a_human_memory_education_and_rehabilitation_tool">A Human Memory education and rehabilitation tool</string>
-
     <string name="next">Next</string>
-    <string name="welcome_to_muscle_memory_a_human_memory_education_and_rehabilitation_tool_this_application_will_provide_you_with_information_and_education_on_the_subject_of_human_memory_there_will_also_be_games_and_quizzes_that_will_help_enhance_your_memory">Welcome to Muscle Memory - A Human Memory education and rehabilitation tool! This application will provide you with information and education on the subject of human memory. There will also be games and quizzes that will help enhance your memory! \n \n This application will also help you with day to day activities, such as setting reminders for events, using a digital calendar and resources to learn more about strategies to protect you from cognitive decline </string>
-    <string name="this_application_will_also_help_you_with_day_to_day_activities_such_as_setting_reminders_for_events_using_a_digital_calendar_and_resources_to_learn_more_about_strategies_to_protect_you_from_cognitive_decline">This application will also help you with day to day activities, such as setting reminders for events, using a digital calendar and resources to learn more about strategies to protect you from cognitive decline</string>
+    <string name="welcome">Welcome to Muscle Memory - A Human Memory education and rehabilitation tool! This application will provide you with information and education on the subject of human memory. There will also be games and quizzes that will help enhance your memory! \n \n This application will also help you with day to day activities, such as setting reminders for events, using a digital calendar and resources to learn more about strategies to protect you from cognitive decline.</string>
+    <string name="welcome2">We will focus on all of the aspects of memory : Understanding Memory, Improving your attention span, Short term, Long Term, Prospective Memory and Internal and External Strategies to help improve your ability to remember things! \n Be sure to enter your memory goals in first, and enjoy using this application!</string>
     <string name="muscle_memory">Muscle Memory</string>
-
     <string name="go_back">Go Back</string>
-
     <string name="moreInfo">This application was made as part of a Computer Science and Software Engineering final year project. It should not be used to diagnose any memory problems. If you are worried about any memory related issues, please contact your GP. The information used in this application is verified by evidence based research.</string>
-
     <string name="learnMore">If you feel you are struggling with memory related issues, you should contact your GP at the earliest convenience. There are many resources online available that you can make use of, such as https://alzheimer.ie/get-support/resources-and-factsheets/ https://www.understandtogether.ie/  and https://www.alz.org/help-support/caregiving</string>
-
-    <string name="tip1">Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</string>
-    <string name="tip2">Be sure to get at least 7 hours sleep! Sleep helps in recalling facts and information as well as in procedural memory formation - the aspect of memory involved in learning new skills faster.</string>
-    <string name="tip3">Have a card in your work area with a simple message on it like "Focus on what to do!" This can help you to avoid drifting off </string>
-    <string name="tip4">If you feel that you are being overloaded - especially in a conversation with someone, ask the person to slow down with the information or repeat what they have said.</string>
-    <string name="tip5">Work at your best time - work at the time of day when you are most alert and focused (For most people, this is the morning!)</string>
 
     <string-array name="tipsy">
         <item>Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</item>
@@ -57,8 +47,6 @@
         <item>Adapt your environment - keep a notepad and pen by the telephone, put up a notice board and label cupboards and doors.</item>
         <item>It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family.</item>
         <item>Put effort into maintaining friendships and developing new friendships.</item>
-
-
     </string-array>
 
 
@@ -67,7 +55,6 @@
         <item>Attention generally explains our ability to focus and hold attention on words on a page, a conversation, music, or traffic on the road when we are driving.</item>
         <item>People with attention problems often complain that they can no longer concentrate on reading books, do tasks and maintain a conversation at the same time, or they may have difficulty studying for any length of time.</item>
         <item>Attention helps us to select specific information and decide what information is important and what is not.</item>
-
     </string-array>
 
     <string-array name="attention2">
@@ -166,7 +153,7 @@
     <string-array name="longTerm3">
         <item>Here are some strategies to help improve your long term wellbeing..</item>
         <item>Get into a routine! Routines and good habits can ease memory difficulties. Pay bills on time if possible and set up standing orders for bills. Carry out certain activities on certain days and keep a daily timetable on the notice board - and USE IT!</item>
-        <item>Improve your wellbeing - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
+        <item>Improve your well being - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
         <item>Seek out relaxing pleasurable activities - learn to relax and look after yourself. stay physically active and fit - exercise at least once a day.</item>
     </string-array>
 
@@ -200,9 +187,9 @@
     <string-array name="inext1">
         <item>Here are some External Memory Strategies - These are things like taking notes, keeping a diary, using a calendar or just getting into a regular routine.</item>
         <item>Adapt your environment - Keep a notepad and pen by the phone, put up a notice board or white board and label cupboards.</item>
-        <item>A place for everything and everything in its place - Have a jey ring by the door where you always hang your keys, a special place to keep your wallet and glasses, have an \"In Tray\" for bills and letters, have a filing system for bills, and place items strategically e.g put letters that you plan to post by the front door.</item>
+        <item>A place for everything and everything in its place - Have a key ring by the door where you always hang your keys, a special place to keep your wallet and glasses, have an \"In Tray\" for bills and letters, have a filing system for bills, and place items strategically e.g put letters that you plan to post by the front door.</item>
         <item>Getting into a routine - Routines and good habits can ease memory difficulties. Pay bills on time if possible and set up direct debits for bills. Carry out certain activities on certain days and keep a daily timetable on a notice board.</item>
-        <item>Improve your wellbeing - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
+        <item>Improve your well being - It is important to reduce anxiety, stress and depression - they make memory difficulties worse. Talk about your difficulties to friends and family. Put effort into maintaining friendships and developing new friendships.</item>
         <item>Seek out relaxing pleasurable activities - learn to relax and look after yourself. stay physically active and fit - exercise at least once a day.</item>
         <item>Learn to say \"No\" to excessive demands and manage your time efficiently - Take breaks.</item>
     </string-array>
@@ -217,7 +204,7 @@
         <item>Use a pill reminder for medication - Get into the routine of filling the pill planner before you go to bed each night - or on a Sunday night for use throughout the week. Keep the pill planner in a very obvious place. The pharmacist can organise all the pills in a blister pack for the week.</item>
         <item>Keep a kitchen timer by the cooker: Alarms are useful reminders to start or stop a certain activity.</item>
         <item>Computers - They can be very good for storing information if you have an interest in using computers.</item>
-        <item>Reminder notes - \"Turn off the cooker\", \"Remeber keys\", \"Lock the front door\". Laminated signs over the cooker, at the front door etc.</item>
+        <item>Reminder notes - \"Turn off the cooker\", \"Remember keys\", \"Lock the front door\". Laminated signs over the cooker, at the front door etc.</item>
         <item>Write on the back of your hand - Just a letter of the alphabet can often be enough to trigger you to remember something important you mean to do.</item>
     </string-array>
 
