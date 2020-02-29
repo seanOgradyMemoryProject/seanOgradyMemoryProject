@@ -114,6 +114,7 @@ public class QuizHome extends AppCompatActivity {
                         }
                         else if(position !=0){
                             Toast.makeText(getApplicationContext(), "Incorrect", Toast.LENGTH_SHORT).show();
+                            gameOver();
                         }
 
                     }
@@ -154,6 +155,10 @@ public class QuizHome extends AppCompatActivity {
 
         Intent intent = new Intent(QuizHome.this, QuizHome.class);
         intent.putExtra("ChosenWords", chosenWords);
+        startActivity(intent);
+    }
+    public void gameOver(){
+        Intent intent = new Intent(QuizHome.this, quizResultActivity.class);
         startActivity(intent);
     }
 

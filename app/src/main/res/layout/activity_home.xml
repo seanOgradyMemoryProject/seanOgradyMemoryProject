@@ -84,7 +84,7 @@
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/custom_button5"
-            android:text="Word Ralley"
+            android:text="Word Rally"
             android:textAllCaps="false"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline71"
