@@ -32,6 +32,7 @@
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:textColor="#e2d1c3"
                     android:textSize="36sp" />
             </LinearLayout>
         </ScrollView>
@@ -53,6 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:background="@drawable/custom_button4"
+            android:padding="5dp"
             android:text="Taking in information"
             android:textAllCaps="false"
             android:textColor="#e2d1c3"

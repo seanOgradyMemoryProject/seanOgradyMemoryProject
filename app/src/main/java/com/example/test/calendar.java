@@ -28,18 +28,17 @@ public class calendar extends AppCompatActivity {
             }
         });
 
-        calendarView = (CalendarView) findViewById(R.id.calendarView);
-        myDate = (TextView) findViewById(R.id.myDate);
+        calendarView = findViewById(R.id.calendarView);
+        myDate = findViewById(R.id.myDate);
 
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                String date = dayOfMonth + "/" + month + "/" + year;
+                String date = dayOfMonth + "/" + (month+1) + "/" + year;
                 myDate.setText(date);
             }
         });
     }
-
 
     public void openHomePage(){
         Intent intent = new Intent(calendar.this, Home.class);

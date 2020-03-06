@@ -8,6 +8,9 @@
     <string name="go_back">Go Back</string>
     <string name="moreInfo">This application was made as part of a Computer Science and Software Engineering final year project. It should not be used to diagnose any memory problems. If you are worried about any memory related issues, please contact your GP. The information used in this application is verified by evidence based research.</string>
     <string name="learnMore">If you feel you are struggling with memory related issues, you should contact your GP at the earliest convenience. There are many resources online available that you can make use of, such as https://alzheimer.ie/get-support/resources-and-factsheets/ https://www.understandtogether.ie/  and https://www.alz.org/help-support/caregiving</string>
+    <string name="quizDetails">Note: An active internet connection is required to start the Rally! \n\n The word rally will test your immediate and short term memory, if you feel you need to learn more about these aspects of memory check out the \"How the Brain Works\" section of Muscle Memory! </string>
+    <string name="firstPart"><b>Well Done! Your score was:</b></string>
+    <string name="secondPart">Be sure to check out how to improve your Short Term and Immediate Memory in the \"How the Brain Works\" feature!</string>
 
     <string-array name="tipsy">
         <item>Get a large wall calendar and hang it up in a prominent place at home. Get in a routine of adding appointments, birthdays etc.. on a daily basis!</item>
@@ -15,7 +18,7 @@
         <item>Have a card in your work area with a simple message on it like "Focus on what to do!" This can help you to avoid drifting off.</item>
         <item>If you feel that you are being overloaded - especially in a conversation with someone, ask the person to slow down with the information or repeat what they have said.</item>
         <item>Work at your best time - work at the time of day when you are most alert and focused (For most people, this is the morning!)</item>
-        <item>If you are worried that you will not be able to know todays date when you are checking the calendar, you can also get in the habit of ticking off the day that has just been completed on your calendar before you go to bed.</item>
+        <item>If you are worried that you will not be able to know today\'s date when you are checking the calendar, you can also get in the habit of ticking off the day that has just been completed on your calendar before you go to bed.</item>
         <item>Try to work in a quiet environment with no background distractions, such as noisy televisions or people talking. This will help improve your concentration.</item>
         <item>Let people know they should try not to interrupt you when you are working. This will help improve your concentration.</item>
         <item>Take frequent breaks! If the problem is made worse by fatigue, work for shorter periods of time. Periods up to 30 minutes tend to be more productive.</item>

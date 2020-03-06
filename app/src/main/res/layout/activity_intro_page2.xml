@@ -65,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
+                android:textColor="#454545"
                 android:textSize="36sp" />
         </LinearLayout>
     </ScrollView>

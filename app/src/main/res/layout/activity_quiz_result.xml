@@ -12,21 +12,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.50" />
+        app:layout_constraintGuide_percent="0.60" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline136"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.75" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline137"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.80" />
+        app:layout_constraintGuide_percent="0.90" />
 
     <Button
         android:id="@+id/button4"
@@ -78,14 +78,15 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="8dp"
         android:padding="10dp"
-        android:text="Congratulations! Your score was score. Be sure to check out how to improve your Short Term and Immediate Memory in the How the Brain Works feature!"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline135"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toTopOf="@+id/guideline140"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,4 +103,48 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:padding="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline135"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline141" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:autoSizeTextType="uniform"
+        android:padding="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline141"
+        app:layout_constraintEnd_toStartOf="@+id/guideline139"
+        app:layout_constraintStart_toStartOf="@+id/guideline138"
+        app:layout_constraintTop_toTopOf="@+id/guideline140" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
 </androidx.constraintlayout.widget.ConstraintLayout>

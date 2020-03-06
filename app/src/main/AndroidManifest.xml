@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".quizResultActivity"></activity>
+        <activity android:name=".deleteGoalsActivity"></activity>
+        <activity android:name=".showGoalsActivity" />
+        <activity android:name=".quizResultActivity" />
         <activity android:name=".externalMemory2" />
         <activity android:name=".externalMemory1" />
         <activity android:name=".prospectiveMemory3" />

@@ -63,8 +63,8 @@ public class QuizHome extends AppCompatActivity {
         mDatabaseRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                List<String> wordsList = new ArrayList<>();
-                List<String> chosenWordsList = new ArrayList<>();
+                ArrayList<String> wordsList = new ArrayList<>();
+                ArrayList<String> chosenWordsList = new ArrayList<>();
 
 
                 for (DataSnapshot snap : dataSnapshot.getChildren()){
@@ -94,7 +94,7 @@ public class QuizHome extends AppCompatActivity {
 
                 wordsToRemember.setText( words );
 
-                final List<String> wordsListShuffled = chosenWordsList;
+                final ArrayList<String> wordsListShuffled = chosenWordsList;
                 Collections.shuffle(wordsListShuffled);
 
                 wordsListShuffled.add(0, "Select Answer");
@@ -142,6 +142,7 @@ public class QuizHome extends AppCompatActivity {
                 firstPrompt.setVisibility(View.INVISIBLE);
                 spinner.setVisibility(View.VISIBLE);
                 levelCounter.setVisibility(View.INVISIBLE);
+                quizNext.setVisibility(View.INVISIBLE);
             }
         });
 
@@ -159,6 +160,7 @@ public class QuizHome extends AppCompatActivity {
     }
     public void gameOver(){
         Intent intent = new Intent(QuizHome.this, quizResultActivity.class);
+        intent.putExtra("ChosenWords", chosenWords);
         startActivity(intent);
     }
 

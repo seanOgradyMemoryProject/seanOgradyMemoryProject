@@ -60,6 +60,7 @@
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:textColor="#e2d1c3"
                     android:textSize="36sp" />
             </LinearLayout>
         </ScrollView>
@@ -87,6 +88,7 @@
             android:layout_marginRight="4dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/custom_button4"
+            android:padding="5dp"
             android:text="Internalising a daily routine"
             android:textAllCaps="false"
             android:textColor="#e2d1c3"

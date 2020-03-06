@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class gamesHome extends AppCompatActivity {
     private Button Home;
     private Button toQuiz;
+    private TextView quizDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,9 @@ public class gamesHome extends AppCompatActivity {
                 openQuizHomePage();
             }
         });
+
+        quizDetails = findViewById(R.id.textView26);
+        quizDetails.append(getBaseContext().getResources().getString(R.string.quizDetails));
 
     }
 

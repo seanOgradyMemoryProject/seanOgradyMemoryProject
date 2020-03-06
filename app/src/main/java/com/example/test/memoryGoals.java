@@ -9,18 +9,24 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class memoryGoals extends AppCompatActivity {
     private Button Home;
     private Button Submit;
+    private Button showMemoryGoals;
     private EditText memoryGoal;
+    private String userID;
 
     DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        userID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memory_goals);
 
@@ -43,6 +49,14 @@ public class memoryGoals extends AppCompatActivity {
                 addMemoryGoals();
             }
         });
+
+        showMemoryGoals =findViewById(R.id.button29);
+        showMemoryGoals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openshowGoalsPage();
+            }
+        });
     }
 
 
@@ -51,13 +65,16 @@ public class memoryGoals extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openshowGoalsPage(){
+        Intent intent = new Intent(memoryGoals.this, showGoalsActivity.class);
+        startActivity(intent);
+    }
+
     public void addMemoryGoals(){
         String memoryGoals = memoryGoal.getText().toString();
 
         if(!TextUtils.isEmpty(memoryGoals)){
-            String id = databaseReference.push().getKey();
-            Users goals = new Users(id);
-            databaseReference.child(id).setValue(goals);
+            databaseReference.child(userID).push().setValue(memoryGoals);
             Toast.makeText(memoryGoals.this, "Memory Goal submitted!", Toast.LENGTH_SHORT).show();
         }
     }

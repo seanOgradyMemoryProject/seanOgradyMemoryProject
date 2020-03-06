@@ -11,6 +11,7 @@ import java.util.Random;
 public class Tips extends AppCompatActivity {
     private Button Home;
     private Button showAll;
+    private Button anotherOne;
     TextView TextView;
 
     @Override
@@ -40,6 +41,14 @@ public class Tips extends AppCompatActivity {
             }
         });
 
+        anotherOne = findViewById(R.id.button54);
+        anotherOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openReloadPage();
+            }
+        });
+
     }
 
     public void openHomePage(){
@@ -49,6 +58,11 @@ public class Tips extends AppCompatActivity {
 
     public void openshowAllPage(){
         Intent intent = new Intent(Tips.this, showAllActivity.class);
+        startActivity(intent);
+    }
+
+    public void openReloadPage(){
+        Intent intent = new Intent(Tips.this, Tips.class);
         startActivity(intent);
     }
 

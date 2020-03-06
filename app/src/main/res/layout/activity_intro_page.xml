@@ -26,6 +26,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#454545"
                 android:padding="10dp"
                 android:textSize="36sp" />
         </LinearLayout>
