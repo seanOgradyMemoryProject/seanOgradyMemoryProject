@@ -94,6 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:background="@drawable/custom_button1"
+        android:padding="10dp"
         android:text="Another Tip!"
         android:textAllCaps="false"
         android:textColor="#e2d1c3"

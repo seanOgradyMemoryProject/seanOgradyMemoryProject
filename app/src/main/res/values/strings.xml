@@ -7,7 +7,7 @@
     <string name="muscle_memory">Muscle Memory</string>
     <string name="go_back">Go Back</string>
     <string name="moreInfo">This application was made as part of a Computer Science and Software Engineering final year project. It should not be used to diagnose any memory problems. If you are worried about any memory related issues, please contact your GP. The information used in this application is verified by evidence based research.</string>
-    <string name="learnMore">If you feel you are struggling with memory related issues, you should contact your GP at the earliest convenience. There are many resources online available that you can make use of, such as https://alzheimer.ie/get-support/resources-and-factsheets/ https://www.understandtogether.ie/  and https://www.alz.org/help-support/caregiving</string>
+    <string name="learnMore">If you feel you are struggling with memory related issues, you should contact your GP at the earliest convenience. There are many resources online available that you can make use of, such as alzheimer.ie/. Reaching out for support is the first step to improving your memory!</string>
     <string name="quizDetails">Note: An active internet connection is required to start the Rally! \n\n The word rally will test your immediate and short term memory, if you feel you need to learn more about these aspects of memory check out the \"How the Brain Works\" section of Muscle Memory! </string>
     <string name="firstPart"><b>Well Done! Your score was:</b></string>
     <string name="secondPart">Be sure to check out how to improve your Short Term and Immediate Memory in the \"How the Brain Works\" feature!</string>
@@ -139,7 +139,7 @@
         <item>What types of information are kept in long term memory?</item>
         <item>Episodic information which is the stories or episodes of our lives.</item>
         <item>Factual information and general knowledge: e.g the grass is green and Dublin is the capital of Ireland.</item>
-        <item>Procedural information: This involves remembering how to do things without having to think about how to do it. For example getting dressed, driving a car or typing.</item>
+        <item>Procedural information: This involves remembering how to do things without having to think about how to do it. For sogprod getting dressed, driving a car or typing.</item>
     </string-array>
 
     <string-array name="longTerm2">
@@ -162,9 +162,9 @@
 
     <string-array name="prospective1">
         <item>Prospective memory is the ability to remember things for the future. It is strongly linked to long term memory and the ability to plan and organise. Prospective memory refers to remembering to perform intended actions in the future, or simply, \"remembering to remember\"</item>
-        <item>Examples of Prospective Memory include remembering to take medicine at night before going to bed, remembering to deliver a message to a friend, and remembering to pick up flowers for a significant other on an anniversary. It may be either event based or time based and is often triggered by a cue.</item>
-        <item>Event based Prospective Memory involves remembering to do a certain action when the specific circumstances are present. For example, driving past the local library cues you to remember that you need to return an overdue book.</item>
-        <item>Time based Prospective Memory involves remembering to do an action at a particular point in time. For example, seeing that it is 10 pm acts as a cue for you to know that it is time to watch your favourite television show.</item>
+        <item>sogprods of Prospective Memory include remembering to take medicine at night before going to bed, remembering to deliver a message to a friend, and remembering to pick up flowers for a significant other on an anniversary. It may be either event based or time based and is often triggered by a cue.</item>
+        <item>Event based Prospective Memory involves remembering to do a certain action when the specific circumstances are present. For sogprod, driving past the local library cues you to remember that you need to return an overdue book.</item>
+        <item>Time based Prospective Memory involves remembering to do an action at a particular point in time. For sogprod, seeing that it is 10 pm acts as a cue for you to know that it is time to watch your favourite television show.</item>
         <item>Prospective memory is useful for remembering appointments, planning and organising our time, remembering to take medications and remembering important events e.g. birthdays.</item>
     </string-array>
 
